@@ -111,3 +111,9 @@ instance, if you want to compile dislocker-fuse only, you'd simply run:
 $ cmake .
 $ make dislocker-fuse
 ```
+6. In Ubuntu, Open the terminal and type:
+
+```
+sudo apt-get install libmbedcrypto0 libmbedtls-dev libfuse-dev
+```
+to fix could NOT find POLARSSL (missing:  POLARSSL_INCLUDE_DIRS POLARSSL_LIBRARIES) errors.
